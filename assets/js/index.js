@@ -3,7 +3,7 @@ let modalMini;
 
 
 function openModal(p) {
-    document.getElementById('demo').style.display = 'block';
+    document.getElementById('demo').style.display = 'flex';
     document.body.style.overflow = 'hidden';
     let back = document.getElementById('back');
 
