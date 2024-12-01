@@ -1,0 +1,407 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: white;
+    font-size: 16px;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(74, 40, 0, 1) 100%);
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.container {
+    width: 1150px;
+    margin: 0 auto;
+}
+
+header {
+    padding: 50px 0;
+}
+
+header span a{
+    color: white;
+}
+
+header .logo, footer .blocks span {
+    text-transform: uppercase;
+    font-size: 29px;
+    font-weight: 800;
+}
+
+header nav {
+    float: right;
+    width: 50%;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+header nav ul li.active::after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 4px;
+    background: #DC7000;
+    border-radius: 10px;
+    position: relative;
+    top: 7px;
+    left: -15px;
+}
+
+header nav ul li a {
+    color: white;
+}
+
+header nav ul li:not(.active):not(.btn) a:hover {
+    border-bottom: 5px solid #DC7000;
+}
+
+header nav ul li.btn a {
+    background: #FA9021;
+    padding: 9px 17px;
+    border-radius: 5px;
+    transition: all 500ms ease;
+}
+
+header nav ul li.btn a:hover {
+    background: #DC7000;
+}
+
+.hero {
+    padding-bottom: 360px;
+    position: relative;
+}
+
+.hero > p {
+    font-size: 12px;
+}
+
+.hero > p .orange {
+    color: #E47500;
+}
+
+.hero-info {
+    padding-top: 30px;
+    width: 400px;
+}
+
+.hero-info h2 {
+    font-size: 30px;
+    font-weight: 700;
+    padding: 30px 0;
+}
+
+.hero-info p {
+    font-size: 15px;
+    line-height: 170%;
+    margin: 30px 0;
+}
+
+.hero-info .btn {
+    color: white;
+    background: #FA8305;
+    border-radius: 20px;
+    padding: 10px 20px;
+    border: 0;
+    transition: all 500ms ease;
+}
+
+.hero-info .btn:hover {
+    cursor: pointer;
+    transform:  scale(1.1);
+}
+
+.hero img {
+    position: absolute;
+    top: 30px;
+    right: -90px;
+}
+
+.review {
+    padding: 50px 0;
+}
+
+.review > h3 {
+    font-size: 25px;
+}
+
+.review .blocks {
+    display: flex;
+    gap: 20px;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+.review .blocks .block {
+    background: #1C140F;
+    border-radius: 10px;
+    width: 270px;
+    padding: 30px 30px;
+}
+
+.review .blocks .block h3 {
+    padding: 20px 0;
+    font-size: 20px;
+}
+
+.review .blocks .block p {
+    line-height: 170%;
+    font-size: 14px;
+}
+
+.review .blocks .block .purple {
+    background: #B000DC;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.review .blocks .block .brown {
+    background: #DC4200;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.review .blocks .block .green {
+    background: #00DC8D;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.review .blocks .block .blue {
+    background: blue;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.review .blocks .block .greend {
+    background: green;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.review .blocks .block .pink {
+    background: pink;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.review .blocks .block .yellow {
+    background: yellow;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.review .blocks .block .blanch {
+    background: blanchedalmond;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.review .blocks .block .crimson {
+    background: crimson;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.info {
+    width: 100%;
+    background: #1C140F;
+}
+
+.info .info-info {
+    padding: 50px 40px;
+    position: relative;
+    padding-bottom: 500px;
+}
+
+.info .info-info .banner{
+    position: absolute;
+    width: 400px;
+    right: 180px;
+    top: 100px;
+}
+
+.info img {
+    position: absolute;
+    bottom: 0;
+}
+
+.client {
+    padding: 100px 0
+}
+
+.client .blocks {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+.client .blocks .block {
+    background: #1C140F;
+    width: 200px;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px 30px;
+}
+
+.client h5 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.client .blocks .block h6 {
+    font-size: 19px;
+    font-weight: 700;
+}
+
+.client .blocks .block p {
+    color: #E8E8E8;
+    font-size: 16px;
+}
+
+.email {
+    padding-bottom: 120px;
+}
+
+.email h3 {
+    margin-top: 60px;
+    font-size: 30px;
+}
+
+.email .block {
+    background: #1C140F;
+    margin-top: 30px;
+    border-radius: 10px;
+    padding: 40px 3%;
+    width: 94%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.email .block h4 {
+    font-size: 30px;
+
+}
+
+.email .block p {
+    width: 400px;
+}
+
+.email .block input {
+    background: white;
+    outline: none;
+    border: 0;
+    border-radius: 5px;
+    width: 300px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    padding: 10px 20px;
+    position: relative;
+    right: -100px;
+    z-index: 1;
+    padding-right: 110px;
+}
+
+.email .block input::placeholder {
+    color: #898989;
+}
+
+.email .block button {
+    background: #DC7000;
+    color: white;
+    border-radius: 10px;
+    padding: 11px 20px;
+    transition: all 500ms ease;
+    cursor: pointer;
+    border: 0;
+    position: relative;
+    z-index: 2;
+}
+
+.email .block button:hover {
+    background: #E87D0E;
+}
+
+footer {
+    background: black;
+    padding: 50px 0;
+}
+
+footer .blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .blocks p {
+    width: 250px;
+    margin: 10px 0;
+}
+
+footer .blocks ul {
+    list-style: none;
+}
+
+footer .blocks ul li {
+    margin-top: 7px;
+}
+
+footer hr {
+    margin: 30px 0;
+}
+
+footer>p {
+    text-align: center;
+}
+
+footer .blocks img {
+    position: relative;
+    top: 100px;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+    font-size: 24px;
+    color: yellow;
+}
