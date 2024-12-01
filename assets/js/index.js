@@ -56,6 +56,13 @@ modalCloser.addEventListener('click', closeModal)
 
 
 
+const modalWrapper = document.getElementById("demo");
+
+modalWrapper.onclick = (e) => {    
+    if(e.target.classList.contains("wrep")) {
+        closeModal();
+    }
+}
 
 
 
