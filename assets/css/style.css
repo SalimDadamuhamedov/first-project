@@ -962,3 +962,8 @@ footer .blocks img {
     left: 750px;
     cursor: pointer;
 }
+
+.wrep{
+    justify-content: center;
+    display: flex;
+}
