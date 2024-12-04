@@ -247,7 +247,7 @@ header nav ul li.btn a:hover {
 }
 
 .info {
-    width: 100%;
+    min-width: 100%;
     background: #1C140F;
 }
 
