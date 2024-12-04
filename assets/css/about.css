@@ -11,6 +11,7 @@ body {
     color: white;
     font-size: 16px;
     min-width: 1150px;
+    overflow-x: hidden;
 }
 
 a {
@@ -23,8 +24,7 @@ img {
 
 .wrapper {
     background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(74, 40, 0, 1) 100%);
-    width: 100%;
-    overflow-x: hidden;
+    min-width: 100%;
 }
 
 .container {

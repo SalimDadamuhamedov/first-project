@@ -24,7 +24,7 @@ img {
 
 .wrapper {
     background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(74, 40, 0, 1) 100%);
-    width: 100%;
+    min-width: 100%;
 }
 
 .container {
