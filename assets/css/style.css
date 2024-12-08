@@ -19,7 +19,7 @@ a {
 }
 
 img {
-    max-width: 100%;
+    width: auto;
 }
 
 .wrapper {
@@ -972,4 +972,11 @@ footer .blocks img {
     top: 0;
     left: 0;
     z-index: 900000;
+}
+
+
+@media (max-width: 768px) {
+    body {
+        min-width: 1400px;
+    }
 }
