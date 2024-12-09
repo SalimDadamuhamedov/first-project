@@ -405,10 +405,3 @@ footer .blocks img {
     font-size: 24px;
     color: yellow;
 }
-
-
-@media (max-width: 1300px) {
-    body {
-        min-width: 1500px;
-    }
-}

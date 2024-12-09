@@ -976,8 +976,3 @@ footer .blocks img {
 }
 
 
-@media (max-width: 1300px) {
-    body {
-        min-width: 1500px;
-    }
-}
