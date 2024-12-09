@@ -407,8 +407,8 @@ footer .blocks img {
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 1300px) {
     body {
-        min-width: 1400px;
+        min-width: 1500px;
     }
 }
